@@ -43,6 +43,7 @@ nav {
 .twocol {
   float: left;
   width: 50%;
+  margin-top: 100px;
   margin-left: 500px;
 
 }
@@ -56,6 +57,22 @@ nav {
   margin-top: 50px;
 }
 .twocol {
+  content: "";
+  clear: both;
+  display: table;
+}
+.threecol {
+  float: left;
+  width: 60%;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.col {
+  float: left;
+  margin-left:20px;
+  text-align: center;
+}
+.threecol {
   content: "";
   clear: both;
   display: table;
