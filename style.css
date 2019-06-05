@@ -13,7 +13,8 @@ header {
 /* header top bar */
 .topbar {
   width: 100%;
-  /* margin: 80%; */
+  display: inline-block;
+  margin: auto;
   background-color: #33475b;
   height: 50px;
 }
