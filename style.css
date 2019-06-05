@@ -12,8 +12,8 @@ header {
 }
 /* header top bar */
 .topbar {
-  /* width: 100%;
-  margin: 80%; */
+  width: 100%;
+  /* margin: 80%; */
   background-color: #33475b;
   height: 50px;
 }
@@ -29,12 +29,34 @@ nav {
   background-color: #09a7bf;
 }
 .casa {
-
   background-image: url("image/casa.png");
   height: 650px;
   background-repeat: no-repeat;
   background-position: right;
 }
-/* #HSLogo {
-  margin-left: 15%;
-} */
+.cube {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.twocol {
+  float: left;
+  width: 50%;
+  margin-left: 500px;
+
+}
+#libro {
+  float: left;
+
+}
+.crm {
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.twocol {
+  content: "";
+  clear: both;
+  display: table;
+}
